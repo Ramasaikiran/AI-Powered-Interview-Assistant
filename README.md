@@ -1,9 +1,8 @@
-# AI-Powered Interview Assistant
-
+ **AI-Powered Interview Assistant**
 Harness the power of AI to conduct mock interviews, evaluate candidates, and provide intelligent feedback. This repository contains everything you need to run the Interview Assistant app locally or deploy it on AI Studio.
 
- Features
- Interviewee (Chat)
+** Features**
+** Interviewee (Chat)**
 
 Upload resume (PDF required, DOCX optional).
 
@@ -17,7 +16,7 @@ Auto-submit when timer ends (Easy: 20s, Medium: 60s, Hard: 120s).
 
 Final score + AI summary after interview completion.
 
- Interviewer (Dashboard)
+ **Interviewer (Dashboard)**
 
 List of candidates ordered by score.
 
@@ -25,44 +24,42 @@ View candidate profile, chat history, and AI-generated summary.
 
 Search & sort functionality.
 
- Persistence
+** Persistence**
 
 Data stored locally with state management (e.g., Redux + redux-persist / IndexedDB).
 
 Progress, timers, and answers restore after refresh/reopen.
 
 Welcome Back modal shown for unfinished sessions.
-## 🚀 Run Locally
+ 🚀 **Run Locally**
 
-**Prerequisites:** Node.js (v18+ recommended)
+**Prerequisites**: Node.js (v18+ recommended)
 
-**Clone the repository**
+Clone the repository
 
-```bash
+**bash**
 git clone https://github.com/Ramasaikiran/AI-Powered-Interview-Assistant.git
 cd AI-Powered-Interview-Assistant
-```
 
 **Install dependencies**
 
-```bash
+bash
 npm install
-```
 
 **Set up environment variables**
 Create a `.env` file in the root directory and add your API key:
 
-```bash
+bash
 VITE_OPENAI_API_KEY=your_api_key_here
 
 **Run the app**
 
-```bash
+bash
 npm run dev
 
 The app will be available at **[http://localhost:5173](http://localhost:5173)** by default.
 
-## 📂 Project Structure
+ 📂 **Project Structure**
 AI-Powered-Interview-Assistant/
 ├── public/              # Static assets
 ├── src/
@@ -78,42 +75,41 @@ AI-Powered-Interview-Assistant/
 └── README.md
 
 
-## ⚙️ How It Works
+ **How It Works**
 
 1. Candidate uploads a resume (**PDF required, DOCX optional**).
 2. System extracts **Name, Email, Phone**. Missing fields are collected via chat.
 3. The AI interview flow begins:
 
-   * 6 questions (2 Easy → 2 Medium → 2 Hard).
-   * Timed per question (Easy: 20s, Medium: 60s, Hard: 120s).
-   * Auto-submits answers when time runs out.
+    6 questions (2 Easy → 2 Medium → 2 Hard).
+    Timed per question (Easy: 20s, Medium: 60s, Hard: 120s).
+    Auto-submits answers when time runs out.
 4. AI calculates a **final score** and generates a **summary**.
 5. Interviewer Dashboard shows:
 
-   * Candidate list ordered by score.
-   * Detailed profile, chat history, and AI evaluation.
-   * Search & sort functionality.
+    Candidate list ordered by score.
+    Detailed profile, chat history, and AI evaluation.
+    Search & sort functionality.
 6. Progress is saved locally. If the session is interrupted, a **Welcome Back modal** restores state.
 
-## 🧪 Testing & Linting
+ 🧪 Testing & Linting
 
 **Run tests**
 
-```bash
+**bash**
 npm test
-```
+
 **Run ESLint**
 
-```bash
+**bash**
 npm run lint
-```
-## 🚀 Deployment
+ **Deployment**
 
 Deploy this app to **Vercel**, **Netlify**, or any static hosting provider:
 
-```bash
+bash
 npm run build
-## 🤝 Contributing
+** Contributing**
 
 Contributions, issues, and feature requests are welcome!
 
@@ -125,7 +121,7 @@ Contributions, issues, and feature requests are welcome!
 
 
 
-## 🛠️ Roadmap & Improvements
+ Roadmap & Improvements
 
 * Add voice-based interview support
 * Extend question banks for different roles/industries
@@ -135,6 +131,6 @@ Contributions, issues, and feature requests are welcome!
 
 
 
-## 📜 License
+ **License**
 
 This project is licensed under the **MIT License**.
