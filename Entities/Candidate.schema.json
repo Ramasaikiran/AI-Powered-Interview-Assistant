@@ -1,0 +1,45 @@
+{
+  "name": "Candidate",
+  "type": "object",
+  "properties": {
+    "name": {
+      "type": "string",
+      "description": "Candidate's full name"
+    },
+    "email": {
+      "type": "string",
+      "description": "Candidate's email address"
+    },
+    "phone": {
+      "type": "string",
+      "description": "Candidate's phone number"
+    },
+    "resume_url": {
+      "type": "string",
+      "description": "URL to uploaded resume file"
+    },
+    "final_score": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 100,
+      "description": "Final AI-calculated score out of 100"
+    },
+    "summary": {
+      "type": "string",
+      "description": "AI-generated performance summary"
+    },
+    "interview_status": {
+      "type": "string",
+      "enum": [
+        "not_started",
+        "in_progress",
+        "completed"
+      ],
+      "default": "not_started"
+    }
+  },
+  "required": [
+    "name",
+    "email"
+  ]
+}
