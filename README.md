@@ -51,8 +51,8 @@ npm run dev
 
 The app will be available at **[http://localhost:5173](http://localhost:5173)** by default.
 
- # Project Structure
- 
+## 📂 Project Structure
+
 AI-Powered-Interview-Assistant/
 ├── public/              # Static assets
 ├── src/
@@ -66,6 +66,8 @@ AI-Powered-Interview-Assistant/
 ├── package.json         # Dependencies & scripts
 ├── vite.config.ts       # Vite config
 └── README.md
+
+
 
 
  # How It Works
