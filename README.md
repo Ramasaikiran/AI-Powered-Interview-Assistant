@@ -54,7 +54,7 @@ The app will be available at **[http://localhost:5173](http://localhost:5173)** 
 
 ## 📂 Project Structure
 
-```text
+```text ```
 AI-Powered-Interview-Assistant/
 ├── public/              # Static assets
 ├── src/
@@ -68,7 +68,7 @@ AI-Powered-Interview-Assistant/
 ├── package.json         # Dependencies & scripts
 ├── vite.config.ts       # Vite config
 └── README.md
-```` ``` ````
+
 
  # How It Works
 
