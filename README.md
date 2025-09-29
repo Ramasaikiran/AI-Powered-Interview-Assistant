@@ -54,19 +54,18 @@ The app will be available at **[http://localhost:5173](http://localhost:5173)** 
 ## 📂 Project Structure
 
 AI-Powered-Interview-Assistant/
-├── public/              # Static assets
+├── public/ # Static assets
 ├── src/
-│   ├── components/      # Reusable UI components
-│   ├── pages/           # Chat & Dashboard pages
-│   ├── store/           # Redux slices & persistence
-│   ├── services/        # AI API & resume parsing logic
-│   ├── App.tsx          # Root component
-│   └── main.tsx         # Vite entry
-├── .env.example         # Example environment variables
-├── package.json         # Dependencies & scripts
-├── vite.config.ts       # Vite config
+│ ├── components/ # Reusable UI components
+│ ├── pages/ # Chat & Dashboard pages
+│ ├── store/ # Redux slices & persistence
+│ ├── services/ # AI API & resume parsing logic
+│ ├── App.tsx # Root component
+│ └── main.tsx # Vite entry
+├── .env.example # Example environment variables
+├── package.json # Dependencies & scripts
+├── vite.config.ts # Vite config
 └── README.md
-
 
 
 
